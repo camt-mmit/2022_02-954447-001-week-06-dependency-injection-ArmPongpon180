@@ -1,0 +1,9 @@
+<main>
+    <div *ngFor="let section of data; let i = index">
+        <a routerLink="{{i}}">
+            <p>Section {{ i + 1 }}:
+                <span> {{ getResult(section) }} </span>
+            </p>
+        </a>
+    </div>
+</main>

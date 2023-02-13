@@ -1,0 +1,7 @@
+<main>
+    <div *ngFor="let item of data; let i = index">
+        <b>Input {{i + 1}} </b>
+        <span>{{item.value}}</span>
+    </div>
+    <span> {{getResult()}} </span>
+</main>
